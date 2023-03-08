@@ -1,0 +1,6 @@
+!Texture
+Id: 257c40ce-4272-4fd7-804e-3909e02eeb4e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Trees/Elm/TB_Elm_Leaf_Opacity.jpg
+Type: !GrayscaleTextureType {}

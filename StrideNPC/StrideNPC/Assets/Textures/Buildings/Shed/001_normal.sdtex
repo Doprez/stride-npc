@@ -1,0 +1,6 @@
+!Texture
+Id: dab7a930-91e8-4d61-a6d0-66946b419e2d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Buildings/Shed/001_normal.png
+Type: !NormalMapTextureType {}

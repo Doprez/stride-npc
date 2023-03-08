@@ -1,0 +1,23 @@
+!Model
+Id: 842a2838-628f-4091-a76f-8b754af2f60b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Models/Elm.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    191b235e53a8d5afed56854f6700f044:
+        Name: ElmMaterialWood
+        MaterialInstance:
+            Material: 2aeed923-b63f-4de3-98ae-ff920d12c205:Materials/ElmMat
+    d6c988594ec6ea6bca14b3225b062354:
+        Name: ElmMaterialLeaf
+        MaterialInstance:
+            Material: 71578769-7b80-4583-9974-b0ef8c8d2e32:Materials/Material
+    643f2276c154a696ea5cc796584f17ff:
+        Name: ElmMaterial3
+        MaterialInstance:
+            Material: null
+Modifiers: {}
+~SourceHashes:
+    100e8e359d0535745ca8d0d8f06e2f7c~../../Resources/Models/Elm.FBX: ba61192a658e07ad8c81de31871a8263

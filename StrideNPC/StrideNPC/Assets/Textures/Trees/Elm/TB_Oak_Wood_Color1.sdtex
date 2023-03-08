@@ -1,0 +1,7 @@
+!Texture
+Id: a627fef1-fcc2-41e6-9ffa-54ae1bd6deae
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Trees/Elm/TB_Oak_Wood_Color1.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

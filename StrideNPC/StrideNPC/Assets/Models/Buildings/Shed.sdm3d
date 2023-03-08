@@ -1,0 +1,15 @@
+!Model
+Id: 5e32954e-1554-46f2-9c7b-024b22664daf
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Shed.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    d65f6cc51480f142dca734e183c25039:
+        Name: Material
+        MaterialInstance:
+            Material: 7be3dbcb-6249-401e-80f6-1c97cc22072f:Materials/ShedMat
+Modifiers: {}
+~SourceHashes:
+    b2bd6e4f18baff92ecd6e4bc29882e9d~../../../Resources/Models/Shed.fbx: e93db0112539d2f81e8bab59f647d611

@@ -1,0 +1,7 @@
+!Texture
+Id: abcf52d1-7b87-4bd5-af58-95a0b8f8d79b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Trees/Elm/TB_Elm_Leaf_Color1.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

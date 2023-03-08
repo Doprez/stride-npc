@@ -1,0 +1,6 @@
+!Texture
+Id: 8ac58f71-b682-4407-8d5e-7154eb9bc365
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Trees/Elm/TB_Oak_Wood_Displacement.jpg
+Type: !GrayscaleTextureType {}

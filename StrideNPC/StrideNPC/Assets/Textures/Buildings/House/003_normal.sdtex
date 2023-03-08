@@ -1,0 +1,6 @@
+!Texture
+Id: 2fc9894b-80ef-43b8-a4c1-4ed8d67703a0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Buildings/House/003_normal.png
+Type: !NormalMapTextureType {}

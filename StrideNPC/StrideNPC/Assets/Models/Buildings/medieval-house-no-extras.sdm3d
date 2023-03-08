@@ -1,0 +1,15 @@
+!Model
+Id: 48c7cf4a-68ce-47c2-ab2b-4f8d2704c2ab
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/medieval-house-no-extras.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    6aca5179ea7e9d35709612627fe72795:
+        Name: Material.001
+        MaterialInstance:
+            Material: e89dd514-1055-40bc-9ef7-8918b11b5cbe:Materials/HouseMat
+Modifiers: {}
+~SourceHashes:
+    b079803c9158cb72a365d45209112e93~../../../Resources/Models/medieval-house-no-extras.fbx: ba61251bc6073783232f1d460410b00e

@@ -1,0 +1,6 @@
+!Texture
+Id: d0cb10d9-3d94-473c-823d-7a887a0a4779
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Trees/Elm/TB_Elm_Leaf_Glossy.jpg
+Type: !GrayscaleTextureType {}

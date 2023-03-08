@@ -1,0 +1,6 @@
+!Texture
+Id: 2313c1bf-6c4a-4e8e-89e8-0ce966fde90e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Buildings/House/003_roughness.png
+Type: !GrayscaleTextureType {}

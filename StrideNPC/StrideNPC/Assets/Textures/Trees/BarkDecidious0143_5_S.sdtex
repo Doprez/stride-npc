@@ -1,0 +1,7 @@
+!Texture
+Id: 04ee1eea-64df-4eb0-97f4-313695944254
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/Trees/BarkDecidious0143_5_S.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,6 @@
+!Texture
+Id: a178e02b-50e5-4ec5-acca-dec600d2ae08
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Buildings/Shed/001_roughness.png
+Type: !GrayscaleTextureType {}

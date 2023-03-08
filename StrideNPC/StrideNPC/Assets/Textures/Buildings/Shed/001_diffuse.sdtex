@@ -1,0 +1,7 @@
+!Texture
+Id: 1a75381e-dfef-4b37-998a-f564fe95f979
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Buildings/Shed/001_diffuse.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

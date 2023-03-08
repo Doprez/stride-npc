@@ -1,0 +1,7 @@
+!Texture
+Id: 9b428329-4472-4450-9b43-8baf41704a74
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/Trees/Leaves0156_1_S.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 0, G: 0, B: 0, A: 255}

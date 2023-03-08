@@ -1,0 +1,15 @@
+!Model
+Id: 467631c8-d0da-49d7-b7aa-2996b76ebedb
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/House.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    000a4ddd845f4e7ce7466698cb9a1d2c:
+        Name: Material.001
+        MaterialInstance:
+            Material: e89dd514-1055-40bc-9ef7-8918b11b5cbe:Materials/HouseMat
+Modifiers: {}
+~SourceHashes:
+    c68907863b8aa377b176f4b2b2971ad8~../../../Resources/Models/House.fbx: 5f0241dd18d02042e9383764187bd23b

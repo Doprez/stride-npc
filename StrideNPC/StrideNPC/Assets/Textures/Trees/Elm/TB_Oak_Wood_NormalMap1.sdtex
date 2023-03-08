@@ -1,0 +1,6 @@
+!Texture
+Id: b7a8854d-21a5-4ba2-ba50-f3d257283194
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Trees/Elm/TB_Oak_Wood_NormalMap1.jpg
+Type: !NormalMapTextureType {}
