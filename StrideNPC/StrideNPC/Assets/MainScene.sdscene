@@ -1,0 +1,236 @@
+!SceneAsset
+Id: ff87d8fc-3941-45a5-9ae2-712583d90465
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 44809e3b-84ff-473e-a372-2d2fab79fc86
+        - ref!! 83a199d0-032c-4214-a477-c0dbb388e8bf
+        - ref!! c0a70932-a884-4f91-9649-60cfcffe1b83
+        - ref!! f30862e3-0d48-4366-a91f-2e22114018f3
+        - ref!! fc588ddc-236c-4e45-97b2-14bb1929074a
+        - ref!! 67ab45b7-164c-4fa9-9bbe-7469f66e4a1c
+        - ref!! 6099c27f-3952-4060-b86f-862e92141bc5
+        - ref!! d709ad01-42ae-421a-8964-92b425191474
+        - ref!! 4d141abb-ffd0-4a9b-9b6c-c5033ba0b377
+    Parts:
+        -   Entity:
+                Id: 44809e3b-84ff-473e-a372-2d2fab79fc86
+                Name: Camera
+                Components:
+                    16127bf3da254b617080452088664248: !TransformComponent
+                        Id: 6a88fc83-780c-45f2-8561-df2bda84c5a4
+                        Position: {X: 2.6, Y: 0.6, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.82903755, Z: 0.0, W: 0.5591929}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c1fc8b8652e0792025c7481a261fcfb2: !CameraComponent
+                        Id: 48936251-a0f1-47b3-8381-a6cc7b524c5e
+                        Name: null
+                        Projection: Perspective
+                        Slot: c5c8d3c6-26c2-460b-bf35-61a50a2d4195
+                    df39b47515f9715f16c11787c9306d0b: !StrideNPC.BasicCameraController,StrideNPC
+                        Id: 50ac61f6-541e-4867-a8cc-ac6c58c85b0b
+                        Gamepad: false
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
+                        SpeedFactor: 5.0
+                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
+                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
+                        TouchRotationSpeed: {X: 1.0, Y: 0.7}
+        -   Entity:
+                Id: 4d141abb-ffd0-4a9b-9b6c-c5033ba0b377
+                Name: medieval-house-no-extras
+                Components:
+                    03d2251274d21bc08ea86ac1dd3cb0a3: !TransformComponent
+                        Id: 7177643d-e302-4c9f-a4e4-d6be48625b7e
+                        Position: {X: -18.676607, Y: 0.0, Z: -24.673325}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    33592bf4e4538151daf6bb87f694b83f: !ModelComponent
+                        Id: db1b2a36-01c9-4a2c-8e91-69ea443287c5
+                        Model: 48c7cf4a-68ce-47c2-ab2b-4f8d2704c2ab:Models/Buildings/medieval-house-no-extras
+                        Materials: {}
+                    e28b020bf55b4322e6b4047651374102: !Code.House,StrideNPC
+                        Id: fc4c0cba-a31a-49b7-92f1-77278fc76355
+                        HasAxe: true
+        -   Folder: Ground
+            Entity:
+                Id: 6099c27f-3952-4060-b86f-862e92141bc5
+                Name: Ground
+                Components:
+                    429d5609e51a853e3849c0a9e4da37c2: !TransformComponent
+                        Id: 8e055e52-b5ec-4de1-9e48-697aa408e05e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 10.0, Y: 1.0, Z: 10.0}
+                        Children: {}
+                    6fc4d2b3720f40533b8ccf14bdaadadd: !ModelComponent
+                        Id: b5138467-50c8-4cfe-a3eb-f2af50730f48
+                        Model: e248e753-1560-4f8b-bac8-c648b2cbb4b6:Ground
+                        Materials:
+                            5be86f890638bf4610dbdb4ddb38400f~0: 9c0790d3-a75b-4b59-8095-209324299e83:Materials/GroundGrassMat
+                    5d2bcfe78ee1c2411628939d9cfefcf3: !StaticColliderComponent
+                        Id: 6b8e54c1-d047-4de3-92a5-c3f47eb96903
+                        CollisionGroup: StaticFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            cfa5fa603e1a7fb0314244fb888e41ba: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 0.05, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 67ab45b7-164c-4fa9-9bbe-7469f66e4a1c
+                Name: Shed
+                Components:
+                    06751e65a3a0eec9fa74adc697548641: !TransformComponent
+                        Id: b1395887-88e7-4ad8-87b7-16ae97c22197
+                        Position: {X: 22.828289, Y: -9.536743E-07, Z: -26.400923}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3f7e8dcdf630110d2a9324f345766378: !ModelComponent
+                        Id: a2c90c94-0d06-45a4-a83d-1d6e5621b692
+                        Model: 5e32954e-1554-46f2-9c7b-024b22664daf:Models/Buildings/Shed
+                        Materials: {}
+                    f85f4bd5d00d80d0ccf5b9da00b02c8e: !Code.Shed,StrideNPC
+                        Id: dedc6004-d4ea-4895-8474-b8a84fd155ab
+                        StoredWood: 0
+        -   Entity:
+                Id: 83a199d0-032c-4214-a477-c0dbb388e8bf
+                Name: Directional light
+                Components:
+                    fd489e38b9a2c031d56d4ff21499103d: !TransformComponent
+                        Id: b7b59a9e-4947-4691-8e20-acfe19207a7f
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: 1.131334E-08, Y: -0.9659258, Z: -0.25881904, W: -4.222196E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7d860229cd25444f5cc1e4ba555a27da: !LightComponent
+                        Id: 2ace4945-1935-470e-8881-d5c9cd3d0947
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+                        Intensity: 20.0
+        -   Entity:
+                Id: 8b36ed0a-57a1-4c30-bfd4-f6eebbf43da3
+                Name: NPC
+                Components:
+                    dfa9dfe4f59eaa3379871b29b2f4e74d: !TransformComponent
+                        Id: 761943ac-0f7a-4620-9394-1025b93d11a3
+                        Position: {X: 0.0, Y: 0.75, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.5, Z: 1.0}
+                        Children: {}
+                    fd75b76747ece09067329fa50b0d6e73: !ModelComponent
+                        Id: 9541c72e-9f0e-40be-aca9-09f5918e955d
+                        Model: 2dfaa66c-7100-4601-8fe3-6e0948a1e067:Models/Capsule
+                        Materials: {}
+        -   Entity:
+                Id: c0a70932-a884-4f91-9649-60cfcffe1b83
+                Name: Skybox
+                Components:
+                    84768b305393159fc28edf796b7f9fbe: !TransformComponent
+                        Id: cdfcfeec-d248-4129-9f2d-7b69099bb365
+                        Position: {X: 0.0, Y: 2.0, Z: -2.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8c4f8cac231c889fb942cd804032224a: !BackgroundComponent
+                        Id: 98da5a8a-d19d-46f8-b513-c9822972a712
+                        Texture: e95a5426-7bf4-493c-acc9-60586f342eb2:Skybox texture
+                    0d4f3bd90c78e8cd793a9cbfa5856e6d: !LightComponent
+                        Id: f6b01a08-bb64-459a-9e33-84865c6402cf
+                        Type: !LightSkybox
+                            Skybox: ff1cf2a9-faba-42f9-8cf5-019c7c96e84f:Skybox
+        -   Entity:
+                Id: d709ad01-42ae-421a-8964-92b425191474
+                Name: Elm
+                Components:
+                    6a02b9655e866959e6524eca86ae9350: !TransformComponent
+                        Id: dd69cbd1-80cd-472d-80cb-3e7313f79ae8
+                        Position: {X: -2.9021368, Y: 0.0, Z: 13.519814}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    50ed163ba1295b05223d8db023199f2c: !ModelComponent
+                        Id: a9a54915-59ba-4c57-b7df-2515cd9582f4
+                        Model: 842a2838-628f-4091-a76f-8b754af2f60b:Models/Elm
+                        Materials: {}
+                    f541706866358bdda3c39bb3d1d72ea4: !StaticColliderComponent
+                        Id: 18e564cd-cb62-4f98-9ad8-da947724e33c
+                        CollisionGroup: StaticFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            a040f1dc4b58ea65dd5288ef548f88a8: !CylinderColliderShapeDesc
+                                Height: 5.0
+                                Radius: 0.3
+                                LocalOffset: {X: 0.0, Y: 2.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    b4db340567a117e9f20ca61f79708ad5: !Code.Resources.Tree,StrideNPC
+                        Id: 1b4aa0c4-47b8-4326-aa91-461783f6b2db
+                        GatherableAmount: 5
+        -   Entity:
+                Id: f30862e3-0d48-4366-a91f-2e22114018f3
+                Name: Navigation bounding box
+                Components:
+                    b6f756e5cb287e3dbe11a4ce3addd5b0: !TransformComponent
+                        Id: 1869cc2c-4cb8-4fa4-bcc8-912ca3cb343a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4e41d9ce19dc9a4497e3c0ef01aba685: !Stride.Navigation.NavigationBoundingBoxComponent,Stride.Navigation
+                        Id: f1e53f67-aab6-41e5-895a-b77054ed24e8
+                        Size: {X: 50.0, Y: 10.0, Z: 50.0}
+        -   Entity:
+                Id: fc588ddc-236c-4e45-97b2-14bb1929074a
+                Name: NPC
+                Components:
+                    79ac5378e028dd8337f42c8194a1ae52: !TransformComponent
+                        Id: 636690e4-ccf2-4acc-9f72-5428feb3eb55
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            2f478e2106bc8e4a15d9481f0f47ac59: ref!! 761943ac-0f7a-4620-9394-1025b93d11a3
+                    ae9f3b26e4c88dce3fbe4c21a379fe06: !NPC.NPCStateMachine,StrideNPC
+                        Id: d5c5558c-04cb-495f-a008-7e589349c483
+                    5d10cc8eb7b72475645a84143e0734fa: !NPC.States.NPCData,StrideNPC
+                        Id: 2060f71b-494f-4123-8225-625bb1289116
+                        NPCHome: ref!! fc4c0cba-a31a-49b7-92f1-77278fc76355
+                        NPCStorage: ref!! dedc6004-d4ea-4895-8474-b8a84fd155ab
+                        HasAxe: false
+                        WoodGathered: 0
+                    90388135b6a364077b4ff34bf1395245: !Navigation.AsyncPathfinder,StrideNPC
+                        Id: c2870e67-3ccd-481e-990c-b4ec0da342ce
+                        TargetPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+                        MovementSpeed: 3.0
+                        NavGroupName: NPC
