@@ -35,7 +35,8 @@ public class NPCStateMachine : FSM
 
 		SetCurrentState(_idle);
 	}
-
+	
+	// You can add sensors here to change state dynamically but for this example state is handled within individual connected states.
 	public override void UpdateFSM()
 	{
 		DebugText.Print($"running State: {currentState.Name}", new Int2(50, 50));
