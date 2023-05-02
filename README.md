@@ -3,7 +3,7 @@ A basic example of a Finite State Machine in the Stride game engine.
 
 In this example an NPC is given some tasks these tasks are as follows:
  - If NPC has no axes go get one in the NPC assigned home
- - If NPC has axes and there is available wood to gather then go get some wood
+ - If NPC has an axe and there is available wood to gather then go get some wood
  - Once wood is gathered, store the wood in the NPC assigned shed
 
 
